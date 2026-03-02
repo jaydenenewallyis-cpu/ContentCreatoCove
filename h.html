@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Creator Cove</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top, #111, #000);
+    color: white;
+    text-align: center;
+}
+
+/* NEON TITLE */
+h1 {
+    font-size: 50px;
+    color: #00f7ff;
+    text-shadow:
+        0 0 5px #00f7ff,
+        0 0 10px #00f7ff,
+        0 0 20px #00f7ff,
+        0 0 40px #00f7ff;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow:
+            0 0 5px #00f7ff,
+            0 0 10px #00f7ff,
+            0 0 20px #00f7ff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #00f7ff,
+            0 0 20px #00f7ff,
+            0 0 40px #00f7ff,
+            0 0 80px #00f7ff;
+    }
+}
+
+header {
+    padding: 30px;
+}
+
+/* NAVIGATION */
+nav a {
+    color: #ff00ff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+
+/* LOGO */
+.logo img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00f7ff;
+}
+
+/* GLOW BOXES */
+.box {
+    background: #111;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 2px solid #00f7ff;
+    box-shadow: 0 0 20px #00f7ff;
+    transition: 0.3s;
+}
+
+.box:hover {
+    box-shadow: 0 0 40px #ff00ff;
+    border-color: #ff00ff;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 20px;
+    background: transparent;
+    color: #00f7ff;
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00f7ff;
+    box-shadow: 0 0 15px #00f7ff inset;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #00f7ff;
+    color: black;
+    box-shadow: 0 0 30px #00f7ff;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚡ Content Creator Cove ⚡</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#join">Join</a>
+    </nav>
+</header>
+
+<div class="logo">
+    <img src="Haysals.gif" alt="Creator Logo">
+</div>
+
+<div class="box" id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to the Content Creator Hub. We bring together creators
+        from YouTube, Twitch, Discord and gaming communities into one
+        powerful neon-powered space.
+    </p>
+</div>
+
+<div class="box" id="platforms">
+    <h2>Our Platforms</h2>
+    <p>We support creators on:</p>
+    <ul style="list-style:none; padding:0;">
+        <div class="box" id="platforms">
+    <h2>Our Platforms</h2>
+    <p>We support creators on:</p>
+    <ul style="list-style:none; padding:0; font-size: 18px;">
+        <li>
+            ▶ <a href="https://www.youtube.com/@ContentCreatorCove" 
+                 target="_blank" 
+                 style="color:#ff0000; text-decoration:none; text-shadow:0 0 10px #ff0000;">
+                 YouTube - Content Creator Cove
+            </a>
+           <li style="margin-top:15px;">
+            🎥 <a href="https://www.twitch.tv/drag_losw"
+                 target="_blank"
+                 style="color:#9146FF; text-decoration:none; text-shadow:0 0 10px #9146FF;">
+                 Twitch - drag_losw
+            </a>
+        </li>
+        <li style="margin-top:15px;">
+            💬 <a href="https://discord.gg/tsbDAQ7u"
+                 target="_blank"
+                 style="color:#5865F2; text-decoration:none; text-shadow:0 0 10px #5865F2;">
+                 Discord - Join Our Server
+            </a>
+        </li>
+</div>
+
+<div class="box" id="join">
+    <h2>Join The Community</h2>
+    <p>Minigame event rn!</p>
+    <a class="button" href="#">Join Now <li style="margin-top:15px;">
+            💬 <a href="https://discord.gg/tsbDAQ7u"
+                 target="_blank"
+                 style="color:#5865F2; text-decoration:none; text-shadow:0 0 10px #5865F2;">
+                 Discord - Join Our Cove:D
+            </a>
+        </li></a>
+</div>
+
+<footer>
+    © 2026 Content Creator Cove | Built by Jaydenene.
+</footer>
+
+</body>
+</html> 
